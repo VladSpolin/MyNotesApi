@@ -2,5 +2,5 @@
 
 namespace MyNotesApi.Contracts
 {
-    public record GetNotesResponse(List<NoteDto> Nodes);
+    public record GetNotesResponse(List<NoteDto> Notes);
 }
